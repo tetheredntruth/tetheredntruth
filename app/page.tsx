@@ -1,9 +1,9 @@
-iexport default function Home() {
+export default function Home(): import("react").JSX.Element {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-24">
       <h1 className="text-4xl font-bold">Tethered & Truth</h1>
       <p className="mt-4 text-lg text-gray-600">
-        Welcome to the beginning of something real. Where your Heard. Seen. Never alone.
+        Welcome to the beginning of something real. Where you're heard. Seen. Never alone.
       </p>
     </main>
   );
